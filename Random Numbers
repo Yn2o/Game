@@ -4,7 +4,7 @@ import random
 
 def generer_nombre():
     print("Générateur de nombre aléatoire!")
-    nombre = random.randint(1, 100)
+    nombre = random.randint(1, 1000)
     print(f"Le nombre généré est : {nombre}")
 
 if __name__ == "__main__":
